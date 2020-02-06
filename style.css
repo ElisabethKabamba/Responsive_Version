@@ -113,7 +113,11 @@ figcaption{
     }
 
     tr:nth-of-type(even)> td, tr:nth-of-type(even)> th{
-        background-color: rgb(200, 202, 207);     
+        background-color: rgb(200, 202, 207);
+        padding: 2%; 
+    }
+    tr:hover> td, tr:hover> th{
+        background-color: rgb(150, 150, 150);
     }
 
     figure{
@@ -135,6 +139,9 @@ figcaption{
     }
     pre{
         font-size: 0.68em;
+    }
+    .cache{
+        display: none;
     }
 
 }
